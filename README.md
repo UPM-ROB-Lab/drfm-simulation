@@ -1,4 +1,4 @@
-# Big Car Dynamics System
+DRFM Vehicle Dynamics
 
 > A four-wheel-drive skid-steer vehicle dynamics simulator with a built-in GUI.
 
