@@ -1,4 +1,4 @@
-DRFM Vehicle Dynamics
+DRFM Vehicle Dynamics Simulation
 
 > A four-wheel-drive skid-steer vehicle dynamics simulator with a built-in GUI.
 
