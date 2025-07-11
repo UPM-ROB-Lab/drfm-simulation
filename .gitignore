@@ -11,6 +11,6 @@ batch_output/
 output.md
 *.json
 !simulation_params.json
-*.png
+# *.png
 # *.txt
 single_result/
