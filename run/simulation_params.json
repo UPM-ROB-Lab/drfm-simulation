@@ -1,0 +1,14 @@
+{
+    "left_steering_angle": 6.0,
+    "right_steering_angle": 14.0,
+    "beta_FR": 1.1,
+    "beta_RL": 0.6,
+    "beta_RR": 1.2,
+    "max_speed": 0.6,
+    "turning_radius": 0.45,
+    "total_time": 15,
+    "accel_time": 0,
+    "const_time": 15,
+    "dt": 0.001,
+    "arc_angle": 90
+}

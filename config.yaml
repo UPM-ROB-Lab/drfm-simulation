@@ -1,0 +1,29 @@
+vehicle:
+  mass: 2.5           # 车辆质量 (kg)
+  inertia_z: 0.42         # 绕Z轴的转动惯量 (kg·m²)
+  initial_position: [0, 0, 0.038, 0]  # 初始位置 [x, y, z, theta]
+  linear_damping_coefficient: 3  # 示例值，根据需要调整
+  angular_damping_coefficient: 0 # 示例值，根据需要调整
+  wheelbase: 0.22
+
+wheels:
+  - position: [-0.06,  0.09, 0.0]    # 前左轮轴心
+    offset:   [-0.05, 0.0, 0.0]     # 轮心向 x 负偏 0.05 m
+  - position: [ 0.06,  0.09, 0.0]    # 前右
+    offset:   [ 0.05, 0.0, 0.0]
+  - position: [-0.06, -0.09, 0.0]    # 后左
+    offset:   [-0.05, 0.0, 0.0]
+  - position: [ 0.06, -0.09, 0.0]    # 后右
+    offset:   [ 0.05, 0.0, 0.0]
+
+
+
+rft:
+  density: 1650             # 颗粒介质的密度 (kg/m³)
+  media_internal_friction: 0.2        # 颗粒内摩擦角 (degrees)
+  scaling_coeff: 1.1
+  left_shape_matrix_path: "model/small_wheel_left_metersY_simple.pkl"  # 左轮形状矩阵存储路径
+  # left_shape_matrix_path: "model/small_wheel_left_metersY.pkl"  # 左轮形状矩阵存储路
+  right_shape_matrix_path: "model/small_wheel_right_metersY_simple.pkl"  # 右轮形状矩阵存储路径
+  # right_shape_matrix_path: "model/small_wheel_right_metersY.pkl"  # 右轮形状矩阵存储路径
+  coefficients_path: "model/latest_coeff.mat"  # 系数矩阵存储路径

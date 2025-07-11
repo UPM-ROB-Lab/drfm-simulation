@@ -1,0 +1,16 @@
+*.pyc
+*.csv
+__pycache__/*
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.DS_Store
+data/
+output/
+batch_output/
+output.md
+*.json
+!simulation_params.json
+*.png
+# *.txt
+single_result/

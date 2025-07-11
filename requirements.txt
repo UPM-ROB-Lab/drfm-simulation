@@ -1,0 +1,36 @@
+# 基础科学计算库
+numpy
+pandas
+matplotlib
+scipy
+
+# 配置文件处理
+PyYAML
+
+# 图像处理 (GUI需要)
+Pillow
+
+# 性能优化 (numba用于JIT编译)
+numba
+
+# 进度条显示
+tqdm
+
+# 优化算法 (贝叶斯优化)
+bayesian-optimization
+
+# Excel文件处理 (分析脚本需要)
+openpyxl
+
+# 3D建模和可视化
+pyvista
+numpy-stl
+
+# 数据分析和可视化增强
+seaborn
+
+# 机器学习库 (某些分析脚本可能需要)
+scikit-learn
+
+# 其他可能的依赖
+xlrd
